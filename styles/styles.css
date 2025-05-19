@@ -1,0 +1,91 @@
+body {
+    background-color: #3a82ab;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+}
+
+
+.container {
+    background-color: white;
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+}
+
+.main-heading {
+    color: #0014f8;
+    text-align: center;
+}
+
+#addTask {
+    margin-top: 0;
+    width: 100%;
+    padding: 10px 5px;
+    font-size: 20px;
+    border: 2px solid #f0f0f0;
+}
+
+.container hr {
+    background-color: #f0f0f0;
+    border: 1px solid #f0f0f0;
+    margin-top: 2rem;
+}
+#listContainer {
+    padding-left: 0;
+}
+#listContainer li {
+    list-style-type: none;
+    text-align: left;
+    position: relative;
+    font-size: 1rem;
+    padding: 16px 16px 16px 0;
+    border-bottom: 1px solid black;
+}
+#listContainer li input[type="checkbox"] {
+    width: max-content;
+    vertical-align: middle;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+input[type="text" i] {
+    padding-block: 1px;
+    padding-inline: 2px;
+}
+
+.edit {
+    position: absolute;
+    right: 50px;
+    top: 20px;
+    cursor: pointer;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px / 1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.del {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    cursor: pointer;
+}
+
+.tasks-list {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    padding-inline-start: 40px;
+    unicode-bidi: isolate;
+}
+
+.line-through{
+    text-decoration: line-through;
+}
